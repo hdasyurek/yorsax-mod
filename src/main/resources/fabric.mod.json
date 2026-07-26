@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "passwordmod",
+  "version": "${version}",
+  "name": "World Password Mod",
+  "description": "Dünyalarınızı şifre ile koruyun!",
+  "authors": ["Sen"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.passwordmod.client.PasswordModClient"
+    ],
+    "main": [
+      "com.passwordmod.PasswordMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=26.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
